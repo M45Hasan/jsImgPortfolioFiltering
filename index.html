@@ -7,6 +7,7 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
   </head>
   <body>
     <div class="main">
@@ -23,8 +24,13 @@
         <h3>Mahmudul Hasan</h3>
         <p class="title">Software Developer</p>
         <br>
-        
-        <p><p><button class="buon">Contact</button></p></p>
+        <ul>
+          <li><a href="https://github.com/M45Hasan" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+          <li><a href="https://codepen.io/dev-MHasan" target="_blank"><i class="fa-brands fa-codepen"></i></a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=100073034223232" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/mahmudul-hasan-519464253/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+        </ul>
+        <p><p><button class="buon"><a class="bun" href="mailto:mmhasan045@gmail.com " target="_blank">Contact</a> </button></p></p>
       </div>
 
       </div>
@@ -33,10 +39,10 @@
       <h2>PORTFOLIO</h2>
 
       <div id="myBtnContainer">
-        <button class="btn active" onclick="filterSelection('all')"> <a href="https://github.com/M45Hasan" target="_blank">Recent Work</a>
+        <button class="btn active" onclick="filterSelection('all')"> Recent Work</a>
           
         </button>
-        <button class="btn" onclick="filterSelection('nature')"><a href="https://codepen.io/dev-MHasan" target="_blank">Effect</a> </button>
+        <button class="btn" onclick="filterSelection('nature')">Effect</a> </button>
         <button class="btn" onclick="filterSelection('cars')">API</button>
         <button class="btn" onclick="filterSelection('people')">Responsive</button>
       </div>

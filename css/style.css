@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #f1f1f1;
+  background-color: rgba(135, 135, 131, 0.806);
   padding: 20px;
   font-family: Arial;
 }
@@ -27,7 +27,10 @@ h1 {
   column-gap: 20px;
 }
 .title {
-  color: grey;
+  color: rgba(26, 29, 29, 0.559);
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 16px;
 }
 a {
   text-decoration: none;
@@ -38,11 +41,16 @@ a {
   outline: 0;
   display: inline-block;
   padding: 8px;
-  color: white;
+
   background-color: #000;
-  text-align: center;
+
   cursor: pointer;
-  width: 50%;
+  width: 92%;
+}
+
+.bun {
+  color: white;
+  text-align: center;
 }
 
 .buon:hover {
@@ -99,4 +107,18 @@ a {
 .btn.active {
   background-color: #666;
   color: white;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  padding-right: 15px;
+  font-size: 30px;
+}
+a {
+  cursor: pointer;
 }
